@@ -1,29 +1,13 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import { App } from "./App.js";
-import { AuthProvider } from "./AuthContext.js";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { Home } from "./pages/home/Home";
+import { Provider } from "./Provider";
 import "./index.css";
 
-const rootElement = document.getElementById("root");
-if (!rootElement) throw new Error("Failed to find the root element");
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-    errorElement: <div>404</div>,
-  },
-  {
-    path: "/about-us",
-    element: <div>About us</div>,
-  },
-]);
-
-createRoot(rootElement).render(
-  <StrictMode>
-    <AuthProvider>
-      <RouterProvider router={router} />
-    </AuthProvider>
-  </StrictMode>
+ReactDOM.createRoot(document.getElementById("root")!).render(
+  <React.StrictMode>
+    <Provider>
+      <Home />
+    </Provider>
+  </React.StrictMode>
 );

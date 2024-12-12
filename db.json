@@ -1,0 +1,20 @@
+{
+  "emails": [
+    {
+      "text": "a title",
+      "id": "1752"
+    },
+    {
+      "id": "14fb",
+      "text": "<u>dfadsafsdfasdfa<b>dsfasdfasdfadsafCvlmk ZCLkvm l. v</b>kds vfkl sdlvk <i>sdlkv sldk v</i></u>"
+    },
+    {
+      "id": "d8ae",
+      "text": "<b>Hey! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quas excepturi quos velit dignissimos natus quae enim <b>suscipit</b> tempore fugiat magnam voluptatem nostrum harum dolorum, repudiandae iste corporis illum kreiciendis!</b>"
+    },
+    {
+      "id": "807a",
+      "text": "<u><b>bla</b> <i>lba</i></u>"
+    }
+  ]
+}

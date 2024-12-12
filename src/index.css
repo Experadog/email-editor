@@ -25,6 +25,8 @@ a:hover {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
 }
 
 button {
@@ -57,4 +59,8 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+#root {
+  width: 100%;
 }
